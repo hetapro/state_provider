@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html ng-app="polls" ng-controller="AppCtrl">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title ng-bind="pageTitle"></title>
+</head>
+<body>
+<h2>Quiz Corner</h2>
+<div ui-view>
+
+    <a href="#/home">Go To Quiz Page</a>
+</div>
+<!-- load all the script file : Begin -->
+<script src="/static/lib/jquery/dist/jquery.min.js" type="application/javascript"></script>
+<script src="/static/lib/angular/angular.js" type="application/javascript"></script>
+<script src="/static/lib/angular-ui-router/release/angular-ui-router.min.js" type="application/javascript"></script>
+<script type="text/javascript" src='/static/lib/restangular/dist/restangular.min.js'></script>
+<script type="text/javascript" src='/static/lib/lodash/dist/lodash.min.js'></script>
+<script src="/static/src/app/app.js" type="application/javascript"></script>
+<script src="/static/src/app/home/home.js" type="application/javascript"></script>
+<script src="/static/src/app/result/result.js" type="application/javascript"></script>
+
+<!-- load all the script file : End -->
+</body>
+</html>
